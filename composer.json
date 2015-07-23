@@ -1,0 +1,23 @@
+{
+    "name": "almado/php-daemonize",
+    "description": "PHP Daemonize",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Eugene Belov",
+            "email": "eugen.alter@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "AlmaDo\\PHP\\Daemonize" : ["src", "tests/integration", "tests/unit"]
+        }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "psr/log" : "~1.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.6.*"
+    }
+}
